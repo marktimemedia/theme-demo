@@ -182,19 +182,19 @@ nav, .site-nav {
 .home-single-article {
 	width:31%;
 	padding:20px;
-	margin:0 2.5%;
+	margin:0 2.5% 20px 2.5%;
 	border:1px solid #bada55;
 	display:inline-block;
 	vertical-align:top;
 	margin:0;
 }
 
-	.home-single-article:first-of-type{
-		margin:0 2.5% 0 0;
+	.home-single-article:first-of-type, .home-single-article:nth-of-type(3n+1){
+		margin:0 2.5% 20px 0;
 	}
 
-	.home-single-article:last-of-type{
-		margin:0 0 0 2.5%;
+	.home-single-article:nth-of-type(3n+0){
+		margin:0 0 20px 2.5%;
 	}
 
 /* Single */
